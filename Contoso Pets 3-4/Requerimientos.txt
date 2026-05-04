@@ -1,0 +1,46 @@
+Asigne un valor numérico válido a petAge para cualquier animal que se haya asignado datos en la 
+matriz ourAnimals, pero no se le haya asignado una edad.
+
+Asigne una cadena válida a petPhysicalDescription para cualquier animal que se haya asignado datos 
+en la matriz ourAnimals, pero no se le haya asignado una descripción física.
+
+Compruebe que las descripciones físicas tienen un valor asignado. Los valores asignados no pueden 
+tener cero caracteres. Cualquier requisito adicional es para usted.
+
+Asigne una cadena válida a petNickname para cualquier animal que se haya asignado datos en la 
+matriz ourAnimals, pero no se le haya asignado un alias.
+
+Asigne una cadena válida a petPersonalityDescription para cualquier animal que se haya asignado 
+datos en la matriz ourAnimals, pero no se le haya asignado una descripción de personalidad.
+
+Compruebe que los alias y las descripciones de personalidad tienen un valor asignado. Los valores 
+asignados no pueden tener cero caracteres. Cualquier requisito adicional es para usted.
+
+
+Esta característica debe:
+
+Debe habilitarse dentro de la rama de aplicación adecuada (no se debe sobrescribir el código 
+en la rama de código para la opción de menú 2).
+
+Omite cualquier animal en el array ourAnimals cuando el valor de pet ID esté establecido en el 
+valor por defecto.
+
+Muestra el valor del identificador de mascota y solicita al usuario un valor de datos actualizado 
+si faltan o están incompletos los datos de la matrizAnimals.
+
+Asegúrese de que se asigna un valor numérico válido a animalAge para todos los animales de la 
+matriz ourAnimals que tienen datos asignados.
+
+Asegúrese de que se asigna una cadena válida a animalPhysicalDescription para todos los animales 
+de la matriz ourAnimals que tienen datos asignados.
+
+Aplique las siguientes reglas de validación para animalAge.
+	Debe ser posible convertir el valor especificado en el tipo de datos numérico.
+
+Aplique las siguientes reglas de validación para animalPhysicalDescription:
+	Los valores no pueden ser NULL.
+	Los valores no pueden tener cero caracteres.
+	Cualquier restricción adicional es para el desarrollador.
+
+Informe al usuario de la aplicación cuando se cumplan todos los requisitos de datos, pausando 
+la aplicación para asegurarse de que se puede ver y responder el mensaje.

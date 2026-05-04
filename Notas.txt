@@ -1,0 +1,46 @@
+/* Para tener en cuenta sobre Array y String
+Métodos de Array
+Array.ToCharArray(string) <- Separa un string en un array de caracteres (char[])
+Array.Sort(array) <- Ordena el array alfabéticamente
+Array.Reverse(array) <- Invierte los elementos del array
+Array.Resize(ref array, 2) <- Recibe como referencia (hay que poner ref) el array y modifica la cantidad de elementos del mismo (borrando elementos o agregando nulls al final)
+Array.Clear(array, 0, 2) <- Elimina la cantidad de valores según el segundo número brindado (2 en el ejemplo) de los elementos desde la posición del primer numero (0 en el ejemplo)
+
+Métodos String
+string.Split(",") <- Corta la cadena string en elementos de un array separandolos por el parámetro que se pase al método
+String.Join(",", words) <- Une los elementos de un array (words) separados por el primer parámetro que se pasa al método
+new String(array) <- Une todos los elementos del array en un string
+*/
+
+/* Sobre formato de strings y numeros
+Formato en cadenas de caracteres
+se puede usar string.Format("{0} - {1}", "pepe", 1) para obtener en cada posición la variable o valor correspondiente
+se puede usar la interpolación para obtener el mismo resultado $"{"pepe"} - {1}"
+generalmente se usan variables y no valores literales
+
+Formato en números
+Para los ejemplos explicados anteriormente se usan los formateadores siguientes (entre otros):
+    50:C para precios con la moneda local según la zona horaria seleccionada -> $ 50,00
+    50000:N para números grandes con separadores de mil -> 50.000,00
+    .5:P para porcentajes tomando en cuenta que 1 es 100% y 0 es 0% -> 50.00 %
+En todos estos casos la cantidad de decimales es 2
+Pero se puede establecer la cantidad de decimales colocando el número luego del formateador:
+100:C3 -> $ 100.000
+2000:N4 -> 2.000,0000
+.1:P1 -> 10.0 %
+
+Metodos de cadenas (VER)
+Métodos que agregan espacios en blanco con fines de formato (PadLeft(), PadRight())
+    primer parametro con cantidad de caracteres (espacios en primer medida)
+    segundo parametro opcional con el char que se utiliza para rellenar (entre comilla simple, comilla doble es para string)
+    
+Métodos que ayudan a buscar posiciones (IndexOf(), LastIndexOf(), IndexOfAny())
+    IndexOf y LastIndexOf no necesitan mucha explicación (primer y última coincidencia)
+    IndexOfAny espera como primer parámetro un array para buscar posición de cualquiera de los elementos del array
+        opcional se puede pasar un segundo parámetro con la posición desde la cual se desea buscar
+
+Métodos que comparan dos cadenas o facilitan la comparación (Trim(), TrimStart(), TrimEnd(), GetHashcode(), la Length propiedad )
+Métodos que le ayudan a determinar qué está dentro de una cadena, o incluso recuperar solo una parte de la cadena (Contains(), StartsWith(), EndsWith(), Substring())
+Métodos que cambian el contenido de la cadena reemplazando, insertando o quitando partes (Replace(), Insert(), Remove())
+Métodos que convierten una cadena en una matriz de cadenas o caracteres (Split(), ToCharArray())
+*/

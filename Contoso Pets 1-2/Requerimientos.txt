@@ -1,0 +1,31 @@
+Se espera un sistema que permita hacer coincidir los animales con los posibles cuidadores.
+Se debe contar con registros para los animales con información detallada.
+
+los animales se almacenarán en la matriz multidimensional ourAnimals
+cada mascota deberá almacenar:
+    - id 						<- animalID
+    - especie (gato o perro)				<- animalSpecies
+    - edad (años)					<- animalAge
+    - descripcion de la condicion o características	<- animalPhysicalDescription
+    - descripcion de la personalidad			<- animalPersonalityDescription
+    - apodo						<- animalNickname
+
+se debe cargar datos de ejemplo
+
+el menú debe permitir accedes a las características de la aplicacion
+
+listar mascotas
+agregar nuevos animales contemplando lo siguiente
+    - la especie (gato o perro) se ingresa al dar de alta
+    - el id se genera de forma automatica al dar de alta
+    - algunas características pueden ser desconocidas hasta el examen del 
+        veterinario (edad, raza y estado de castracion)
+    - el apodo y la personalidad pueden ser desconocidas al dar de alta
+editar la edad (si la mascota cumple años)
+editar la personalidad (la mascota puede cambiar de personalidad)
+listado de gatos que cumplen con caracteristicas específicas
+listado de perros que cumplen con caracteristicas específicas
+
+luego del examen del veterinario la edad y las descripciones deben quedar completas
+
+luego de que el equipo conozca la mascota se debe disponer del apodo y la personalidad
