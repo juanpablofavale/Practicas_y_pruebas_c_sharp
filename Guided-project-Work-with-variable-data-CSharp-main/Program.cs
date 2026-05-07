@@ -158,7 +158,7 @@ do
 
 			if (noMatchesDog) Console.WriteLine($"None of our dogs are a match found for: {dogCharacteristic}");
 			
-            Console.WriteLine("Press the Enter key to continue.");
+            Console.WriteLine("\nPress the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
 
